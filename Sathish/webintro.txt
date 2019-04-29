@@ -1,0 +1,78 @@
+Application:
+Presentation logic
+Business logic
+Data access logic
+
+WindowsApplication:
+Single tier architecture
+Two tier architecture>> client server comm(request, response)
+
+Web application:
+Two tier:
+Three tier:
+Client: presen, business
+Application server: presen(pages), business(coding)
+Database server: data access logic(data)
+
+N-tier architecture:
+Client
+PROXY SERVER: ISP
+application server
+database server
+
+MVC architecture:
+client
+application server: pages(view), coding(controller), db copy(model)
+database server
+
+
+types:
+static web development/ site:
+content wont change often
+eg:
+wikipedia, blogspot,...
+
+skill sets:
+html(components), css(styles), java script(client level actions)
+
+
+dynamic web development/ site:
+content will change depends on users
+eg:
+flipkart,facebook, gmail,....
+
+skill sets:
+html,css,js
++
+programming language:(server side)
+c#+html>>asp
+java+html>> jsp>> javaEE
+python>>
+php...
+.
+.
+
+Protocol:
+sender, reciever, data, medium, container
+
+TCP/IP
+UDP
+FTP: bluetooth
+HTTP: pages, images,....>> 80
+HTTPS: pages, images,...>> 443
+SMTP: 
+POP3: 
+.
+.
+
+
+Static web site:
+basic:
+notepad>> script
+browser>> run
+
+tools:
+editer: code
+server>>> basic: HttpPreview
+browser: internal, external(firefox,chrome,...)
+
