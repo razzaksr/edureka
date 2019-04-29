@@ -1,0 +1,83 @@
+JRE: 4200+ built in classes
+
+syntax:
+// bean/ model class
+class TagName
+{
+// members
+// var/ object
+// methods/ functions
+}
+
+// Main/ execution class
+class TagName1
+{
+// members
+public static void main(String[] arg)
+{
+// logic
+ClassName object=new ClassName();// instanciation/ object creation/ getting permission
+TagName object=new TagName();// non literal
+object.methods();
+object.var;
+}
+}
+
+Contributors:
+1. Comments: description for human understanding and compiler simply ignores
+//single line comment
+/*
+...multi line
+comment
+*/
+
+2. Keywords: reserved words which they used when developing java
+53 reserved words
+eg: try, this, super, new, ,.....
+
+3. Seperators:  seperates fields, blocks, lines,.....
+, ;
+{}
+
+4. Identifiers: Custom name with definition
+
+rules:
+do's:    kitkat, kit7kat, _7kitkat, _kitkat
+dont's: 7kitkat, kit^&kat, kit kat,  break
+
+Class/ Project                   : NormalNotation
+Variable/methods/objects :camelNotation
+packages                           :small.cases
+
+5. Data types: to specify variables format and size:8 primitive types
+short(2byte),int(default,4byte),long(8byte)>> whole numbers, 
+float(4byte), double(default, 8byte)>> fractional numbers>> tax, account balance
+byte(1byte)>> ascii+uni
+char(2byte)>> 'A' '$' '4'
+boolean>> true/false
+
+56//int
+636001//int
+87654567890//int
+
+type variable_name;
+long mobNo;
+mobNo=87654567867L;
+
+6. Wrapper classes: buil in methods in each class, that can be used for our purpose
+Short, Integer, Long, Float, Double, Byte, Character, Boolean
+Long mobNo=new Long(87654345678);// non literal
+
+7. Literal: assign value to object directly
+only wrapper class, String, Object>> 10
+Long mobNo=8765434567L;
+
+8. Operators:
+Arithmetic: + - * / %
+Bit wise: & | ^ << >> 
+Unary: ++ --
+Short hand: += -= *= /= <<= >>= %= ,....
+
+true/false
+Relational: < <= >= > == !=
+Logical: && || !
